@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header id="h">
+        <img src="img/logo.amazon.png" alt="" class="logo">
+        <i class="fas fa-map-marker-alt"></i>
+        <span class="delver-to">Delver to</span>
+                <span class="delver-to-con">usa</span>   
+        
+
+        <form action="" class="form">
+            <select>
+                <option value="">all</option>
+                <option value="">baby</option>
+                <option value="">pc</option>
+                <option value="">phones</option>
+                <option value="">game</option>
+            </select>
+            <input type="text">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+        <img onclick="open_flag_mune()" is="open_flag" src="img/Flag-United-States-of-America.jpg" alt="" class="flag">
+        <img onclick="hide_flag_mune()" id="hide_flag" style="display: none;" src="img/Flag-United-States-of-America.jpg" alt="" class="flag">
+        <span class="down">▽</span>
+
+
+        <span class="name" id="aco_open" onclick="open_aco()">Hi Moaaz</span>
+        <span class="list" id="aco_open2" onclick="open_aco()">acount & list</span>
+        <span class="name" id="aco_hide" style="display: none;" onclick="hide_aco()">Hi Moaaz</span>
+        <span class="list" id="aco_hide2" style="display: none;" onclick="hide_aco()">acount & list</span>
+        
+        
+        
+        <span class="down2">▽</span>
+        <span class="olders">orders</span>
+        <i class="fas fa-shopping-cart"></i>
+        <span class="card-num">3</span>
+        
+
+        <div class="flag_munu" id="flag_munu">
+            <div class="top2"></div>
+            <form action="">
+                <label for="" class="block">Change language <a href="">learn more</a></label>
+                 <label for="1" ><input id="1" type="radio" name="lan" checked> EN</label>
+                 <label for="2"><input id="2" type="radio" name="lan"> AR</label>
+                 <label for="3"><input id="3" type="radio" name="lan"> ES</label>
+                 <label for="4"><input id="4" type="radio" name="lan"> ZH</label>
+                <hr>
+                <label for="" class="block">Change currency <a href="">learn more</a></label>
+                <label for="">$ - USD - U.S. Dollar <a href="">change</a></label>
+            </form>
+        </div>
+
+        <div class="acount" id="acount">
+            <div class="top"></div>
+            <div class="left">
+                <h4>Your lists</h4>
+                <h6>New list</h6>
+                <h6>find a list</h6>
+                <h6>AmazonSmile Charity Lists</h6>
+            </div>
+            <div class="right">
+                <h4>Your acount</h4>
+                <h6>Account</h6>
+                <h6>Switch Accounts</h6>
+                <h6>Music Library</h6>
+                <h6>Memberships & Subscriptions</h6>
+                <h6>Subscribe & Save Items</h6>
+                <h6>Content & Devices</h6>
+                <h6>Sign Out</h6>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="" onclick="open_munu()">☰All</a>
+        <a href="">Today's Deals</a>
+        <a href="">Customer Service</a>
+        <a href="">Gift Cards</a>
+        <a href="">Sell</a>
+        <a href="">Buy Again</a>
+        <a href="">Moaaz's Amazon.com</a>
+        <a href="" id="drob_open_show" onclick="drob_open()">Browsing History▽</a>
+        <a href="" style="display: none;" id="drob_open_hide" onclick="drob_open_hide()">Browsing History△</a>
+
+        
+        <div class="drobmunu" id="drobmunu">
+            <div class="top"></div>
+            <h5>Your Browsing History <a href="">View and edit</a></h5>
+            <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+            <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+            <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+            <img src="img/Screenshot 2021-11-07 112124.png" alt="">
+            <img src="img/Screenshot 2021-11-07 112131.png" alt="">
+            <span class="view-all">View all History</span>
+
+            <!--                                       -->
+            <a href="" style="margin-left: 60px;">book</a>
+            <a href="">book2</a>
+            <a href="">book3</a>
+            <a href="">book4</a>
+            <a href="">book5</a>
+            <!--                                       -->
+            <div class="slid">
+                <span style="margin-left: 45px;"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <section>
+         <div class="top">
+             <img src="img/Screenshot 2021-11-07 160153.png" alt="" class="img">
+             <a href="" class="left">◀</a>
+             <a href="" class="right">▶</a>
+             <section>
+                <div>
+                    <h4>Hi Moaaz</h4>
+                    <h6>Recommendations for you</h6>
+                    <img src="img/4 of 4.png" alt="">
+                    <a href="" >Shop now</a>
+                </div>
+                 <div>
+                    <h5>Deals & Promotions</h5>
+                    <img src="img/Screenshot 2021-11-07 161446.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Electronics</h5>
+                    <img src="img/Screenshot 2021-11-07 162508.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+    
+                 <div>
+                    <h5>Computers & Accessories</h5>
+                    <img src="img/pc.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Deals & Promotions</h5>
+                    <img src="img/Screenshot 2021-11-07 161446.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Electronics</h5>
+                    <img src="img/Screenshot 2021-11-07 162508.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+    
+                 <div>
+                    <h5>Computers & Accessories</h5>
+                    <img src="img/pc.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Deals & Promotions</h5>
+                    <img src="img/Screenshot 2021-11-07 161446.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Electronics</h5>
+                    <img src="img/Screenshot 2021-11-07 162508.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+    
+                 <div>
+                    <h5>Computers & Accessories</h5>
+                    <img src="img/pc.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Deals & Promotions</h5>
+                    <img src="img/Screenshot 2021-11-07 161446.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Electronics</h5>
+                    <img src="img/Screenshot 2021-11-07 162508.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+
+                 <div class="books">
+                     <h4>Related to items you've viewed</h4>
+                     <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                     <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                     <a href="">▲</a>
+                     
+                 </div>
+                 <div>
+                    <h5>Deals & Promotions</h5>
+                    <img src="img/Screenshot 2021-11-07 161446.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Electronics</h5>
+                    <img src="img/Screenshot 2021-11-07 162508.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+    
+                 <div>
+                    <h5>Computers & Accessories</h5>
+                    <img src="img/pc.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Deals & Promotions</h5>
+                    <img src="img/Screenshot 2021-11-07 161446.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div>
+                    <h5>Electronics</h5>
+                    <img src="img/Screenshot 2021-11-07 162508.png" alt="">
+                    <a href="">Shop now</a>
+                 </div>
+                 <div class="books">
+                    <h4>Related to items you've viewed</h4>
+                    <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112054.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112111.png" alt="">
+                    <img src="img/Screenshot 2021-11-07 112118.png" alt="">
+                    <a href="">▲</a>
+
+                    
+                </div>
+
+             </section>
+             
+         </div>
+         <a href="#h" class="to-top">top</a>
+    </section>
+
+
+    <aside id="aside">
+        <div class="user">
+            <h3>Hi Moaaz</h3>
+            <i class="fas fa-user-circle"></i>
+            <h2 onclick="hide_mune()">×</h2>
+        </div>
+        <div class="con">
+            <h3>Pc</h3>
+            <p>Page 1 ▶</p>
+            <p>Page 2 ▶</p>
+            <p>Page 3 ▶</p>
+            <p>Page 4 ▶</p>
+
+        </div>
+        <hr>
+        <div class="con">
+            <h3>Pc</h3>
+            <p>Page 1 ▶</p>
+            <p>Page 2 ▶</p>
+            <p>Page 3 ▶</p>
+            <p>Page 4 ▶</p>
+
+        </div>
+        <hr>
+        <div class="con">
+            <h3>Pc</h3>
+            <p>Page 1 ▶</p>
+            <p>Page 2 ▶</p>
+            <p>Page 3 ▶</p>
+            <p>Page 4 ▶</p>
+
+        </div>
+        <hr>
+
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+<script src="script.js"></script>
+</body>
+</html>
